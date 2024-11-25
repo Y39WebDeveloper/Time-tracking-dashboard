@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="profile">
+        <div class="info">
+          <div class="img">
+            <img src="images/image-jeremy.png" alt="" />
+          </div>
+          <div class="name">
+            <span>Report for</span>
+            Jeremy Robson
+          </div>
+        </div>
+        <ul>
+          <li>
+            <input
+              type="radio"
+              name="timeframe"
+              value="daily"
+              id="daily"
+              checked
+            />
+            <label for="daily">Daily</label>
+          </li>
+          <li>
+            <input type="radio" name="timeframe" value="weekly" id="weekly" />
+            <label for="weekly">Weekly</label>
+          </li>
+          <li>
+            <input type="radio" name="timeframe" value="monthly" id="monthly" />
+            <label for="monthly">Monthly</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
